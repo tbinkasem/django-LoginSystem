@@ -1,0 +1,7 @@
+<h3>หน้าลงทะเบียน</h3>
+<hr color="red">
+<form action="" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">ลงทะเบียน</button>
+</form>
